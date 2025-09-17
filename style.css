@@ -1,0 +1,64 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  background-color: #fff0f6;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 2.2rem;
+  color: #d63384;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  font-family: "Quicksand", sans-serif;
+  background-color: #f783ac;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #d63384;
+  transform: scale(1.05);
+}
+
+li button {
+  margin-left: 8px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+li button:first-of-type {
+  background-color: #b197fc;
+  color: white;
+}
+
+li button:first-of-type:hover {
+  background-color: #6741d9;
+}
+
+/* slet-knap */
+li button:last-of-type {
+  background-color: #faa2c1;
+  color: white;
+}
+
+li button:last-of-type:hover {
+  background-color: #e03131;
+}
